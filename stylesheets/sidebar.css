@@ -1,0 +1,48 @@
+ol {
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    background-color: rgb(241, 242, 243);
+    width: 350px;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-bottom: 60px;
+    position: fixed;
+    height: 100vh;
+    overflow: scroll;
+    margin-top: 40px;
+}
+
+.sidebar-list {
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.contents-link {
+    color: inherit;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.contents-link:hover {
+    color: rgb(146, 0, 0);
+    opacity: 1;
+}
+
+.contents-list-second {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.contents-list-third {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
